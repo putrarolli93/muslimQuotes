@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "284259089296",
+    "firebase_url": "https://muslim-quotes-app-default-rtdb.firebaseio.com",
+    "project_id": "muslim-quotes-app",
+    "storage_bucket": "muslim-quotes-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284259089296:android:e403092b7d2f90085e5115",
+        "android_client_info": {
+          "package_name": "com.muslimApp.muslimquotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284259089296-prqhk82dap642jb79i875id8ls8cv9t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW9ani78IZ_GeKiYWhH9mGnQeXTvlqJXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284259089296-prqhk82dap642jb79i875id8ls8cv9t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

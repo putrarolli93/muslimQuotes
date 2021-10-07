@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muslimApp.muslimquotesapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.muslimApp.muslimquotesapp.All_Inflater_Activity"></activity>
+        <activity android:name="com.muslimApp.muslimquotesapp.UploadActivity" />
+        <activity
+            android:name="com.muslimApp.muslimquotesapp.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.muslimApp.muslimquotesapp.WallpapersActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.muslimApp.muslimquotesapp.ViewPagerActivity"
+            android:theme="@style/AppTheme.NoActionBarNew" />
+        <activity
+            android:name="com.muslimApp.muslimquotesapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.muslimApp.muslimquotesapp.IntroSlider.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+
+</manifest>
